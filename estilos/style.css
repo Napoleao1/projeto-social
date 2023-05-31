@@ -1,7 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /* Configurações globais */
-* {
+ * {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +62,8 @@ iframe#tela{
 
 #redes-sociais a{
   
-  display: block; /* para colocar item abaixo do outro */
+  display: block;
+  /* para colocar item abaixo do outro */
 }
 
 #redes-sociais img:hover{
