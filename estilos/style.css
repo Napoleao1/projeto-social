@@ -47,3 +47,28 @@ iframe#tela{
 
   
 }
+
+#redes-sociais img{
+  width: 60px;
+  margin: 10px; /* para separar os botoes */
+  border-radius: 50%;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.432);
+  box-sizing: border-box;
+}
+#redes-sociais{
+  text-align: right;
+  
+}
+
+#redes-sociais a{
+  
+  display: block; /* para colocar item abaixo do outro */
+}
+
+#redes-sociais img:hover{
+  border: 2px solid rgba(255, 255, 255, 0.548); /* porém a borda fica mexendo os botões, adicionar comando box-sizing: border-box; em 
+  #redes-sociais img */ 
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+  transition: transform .3s, border .1s;
+}
